@@ -321,7 +321,7 @@
   .box-item img {
     width: 64px;
     height: 64px;
-    padding: 32px 477px 32px 32px;
+    margin: 10px 477px 32px 32px;
   }
   
   .box-item h3 {
@@ -353,7 +353,7 @@
   .box-item-extra img {
     width: 64px;
     height: 64px;
-    padding: 32px 477px 32px 32px;
+    margin: 10px 477px 32px 32px;
   }
   
   .box-item-extra h3 {
