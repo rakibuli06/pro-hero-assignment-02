@@ -1,228 +1,292 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Treker</title>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Treker</title>
 
-    <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/style.css">
 
-    <!-- ==font-family== -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap"
-        rel="stylesheet">
+        <!-- ==font-family== -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap"
+            rel="stylesheet">
 
-    <!-- cdnjs -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-</head>
+        <!-- cdnjs -->
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    </head>
 
-<body>
-    <!-- header section -->
-    <header>
-        <div class="logo">
-            <img src="images/logo.svg" alt="">
-        </div>
-        <div class="nav">
-            <!-- <ul class="sidebar">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Packages</a></li>
-                <li><a href="#">Testimonial</a></li>
-                <li><a href="#">Blog</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul> -->
-            <ul>
-                <li style="color: #FF5400;"><a href="#">Home</a></li>
-                <li><a href="#">Packages</a></li>
-                <li><a href="#">Testimonial</a></li>
-                <li><a href="#">Blog</a></li>
-                <li><a href="#">Contact</a></li>
-                <!-- <li class="menu-button"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24"
-                            viewBox="0 -960 960 960" width="24">
-                            <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z" />
-                        </svg>
-                    </a></li> -->
-            </ul>
-        </div>
-    </header>
-
-    <!-- Hero Section -->
-    <main>
-        <div class="container-hero">
-            <div>
-                <h1>Explore Your Travel</h1>
-                <p>Start the new year on a bright note. Make new memories with a last-minute getaway and save 25% or
-                    more with Member Prices until Jan 31.</p>
+    <body>
+        <!-- header section -->
+        <header>
+            <div class="logo">
+                <img src="images/logo.svg" alt>
             </div>
-            <div class="s-box">
-                <div class="s-box2">
-                    <input type="text" placeholder="Where go">
-                    <input type="text" placeholder="When">
-                    <input type="text" placeholder="Select Type">
-                    <button>Find New</button>
+            <div class="nav">
+                <!-- <ul class="sidebar">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Packages</a></li>
+                    <li><a href="#">Testimonial</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul> -->
+                <ul class="nav-item">
+                    <li style="color: #FF5400;"><a href="#">Home</a></li>
+                    <li><a href="#">Packages</a></li>
+                    <li><a href="#">Testimonial</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <!-- <li class="menu-button"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24"
+                                viewBox="0 -960 960 960" width="24">
+                                <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z" />
+                            </svg>
+                        </a></li> -->
+                </ul>
+                <ul class="hamburger">
+                    <li><a href="#">
+                            <i class="fa-solid fa-bars fa-2xl"></i>
+                        </a></li>
+                </ul>
+            </div>
+        </header>
+
+        <!-- Hero Section -->
+        <main>
+            <div class="container-hero">
+                <div>
+                    <h1>Explore Your Travel</h1>
+                    <p>Start the new year on a bright note. Make
+                        new
+                        memories with a last-minute getaway and
+                        save 25%
+                        or
+                        more with Member Prices until Jan
+                        31.</p>
+                </div>
+                <div class="s-box">
+                    <div class="s-box2">
+                        <input type="text"
+                            placeholder="Where go">
+                        <input type="text" placeholder="When">
+                        <input type="text"
+                            placeholder="Select Type">
+                        <button>Find New</button>
+                    </div>
                 </div>
             </div>
-        </div>
-    </main>
+        </main>
 
-    <!-- Popular section -->
-    <section class="container-popular">
-        <div class="popular-section">
-            <h1>Our Popular Tours</h1>
-            <p>A popular destination of tourist. Here has the unique privilage of having two hight peaks of the country,
-            </p>
-            <div class="list">
-                <li>Discover the shimmering lights and festive sights of Asia’s holiday season.</li>
-                <li>Stay at our top unique properties From castles and villas to boats and igloos, we've got it all</li>
-                <li> Planning a trip can take a lot of time and energy, whether you’re traveling for work, taking your
-                    dream vacation</li>
-            </div>
-            <h2>To save you from having to do the work yourself, we’ve curated a list of the top travel websites to help
-                you with every step of your trip-planning process. </h2>
-            <button>Read More</button>
-        </div>
-        <div>
-            <img src="images/background/popular.png" alt="">
-        </div>
-    </section>
-
-    <!-- gallery section -->
-    <section class="gallery-section">
-        <div class="gallery-text-section">
-            <h2>Choose Your Destination</h2>
-            <p>Expand your travel horizons with new facets! Explore the world by choosing your ideal travel destinations
-                in Asia, Europe, America, Australia and more with Treker.</p>
-        </div>
-        <div class="row">
-            <div>
-                <img src="images/background/gallery01.png" alt="">
-            </div>
-            <div>
-                <img src="images/background/gallery02.png" alt="">
-            </div>
-        </div>
-        <div style="padding-top: 24px;" class="row">
-            <div>
-                <img src="images/background/gallery03.png" alt="">
+        <!-- Popular section -->
+        <section class="container-popular">
+            <div class="popular-section">
+                <h1>Our Popular Tours</h1>
+                <p>A popular destination of tourist. Here has
+                    the unique
+                    privilage of having two hight peaks of the
+                    country,
+                </p>
+                <div class="list">
+                    <li>Discover the shimmering lights and
+                        festive
+                        sights of Asia’s holiday season.</li>
+                    <li>Stay at our top unique properties From
+                        castles
+                        and villas to boats and igloos, we've
+                        got it
+                        all</li>
+                    <li> Planning a trip can take a lot of time
+                        and
+                        energy, whether you’re traveling for
+                        work,
+                        taking your
+                        dream vacation</li>
+                </div>
+                <h2>To save you from having to do the work
+                    yourself,
+                    we’ve curated a list of the top travel
+                    websites to
+                    help
+                    you with every step of your trip-planning
+                    process.
+                </h2>
+                <button>Read More</button>
             </div>
             <div>
-                <img src="images/background/gallery04.png" alt="">
+                <img src="images/background/popular.png" alt>
+            </div>
+        </section>
+
+        <!-- gallery section -->
+        <section class="gallery-section">
+            <div class="gallery-text-section">
+                <h2>Choose Your Destination</h2>
+                <p>Expand your travel horizons with new facets! Explore the
+                    world by choosing your ideal travel destinations
+                    in Asia, Europe, America, Australia and more with
+                    Treker.</p>
+            </div>
+            <div class="row">
+                <div>
+                    <img src="images/background/gallery01.png" alt>
+                </div>
+                <div>
+                    <img src="images/background/gallery02.png" alt>
+                </div>
+            </div>
+            <div style="padding-top: 24px;" class="row">
+                <div>
+                    <img src="images/background/gallery03.png" alt>
+                </div>
+                <div>
+                    <img src="images/background/gallery04.png" alt>
+                </div>
+                <div>
+                    <img src="images/background/gallery05.png" alt>
+                </div>
+            </div>
+            <div style="padding-top: 24px;" class="row">
+                <div>
+                    <img src="images/background/gallery06.png" alt>
+                </div>
+                <div>
+                    <img src="images/background/gallery07.png" alt>
+                </div>
+            </div>
+        </section>
+
+        <!-- Why Choose Us Section -->
+        <section class="container-choose">
+            <div class="header-choose">
+                <h1>Why Choose Us</h1>
+                <p>Our carefully selected destinations offer a
+                    rich
+                    mosaic of traditions, history, and natural
+                    wonders</p>
+            </div>
+            <div class="box-item-container-1">
+                <div class="box-item">
+                    <img src="images/hotel 1.svg" alt>
+                    <h3>Handpicked Hotels</h3>
+                    <p>Discover a world of unparalleled
+                        hospitality,
+                        where every hotel has been chosen for
+                        its unique
+                        charm,
+                        outstanding service, and attention to
+                        detail.
+                    </p>
+                </div>
+                <div class="box-item-extra">
+                    <img src="images/map 1.svg" alt>
+                    <h3>World Class Service</h3>
+                    <p>luxury meets distinction. Our team of
+                        travel
+                        experts has meticulously selected each
+                        property
+                        to
+                        ensure an exceptional and unforgettable
+                        experience for our guests. </p>
+                </div>
+            </div>
+            <div class="box-item-container-2">
+                <div class="box-item">
+                    <img src="images/price-tag 1.svg" alt>
+                    <h3>Best Price Guarantee</h3>
+                    <p> Explore our carefully curated selection
+                        and
+                        elevate your travel experience with the
+                        finest
+                        accommodations around the globe. </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Perfect Place Section -->
+        <section class="perfect-container">
+            <div class="perfect-des">
+                <h1>A Simple Perfect Place To Get Lost</h1>
+                <p>A popular destination of tourist. Here has
+                    the unique
+                    privilage of having two hight peaks of the
+                    country,
+                </p>
+                <div class="perfect-list">
+                    <li>Discover the shimmering lights and
+                        festive
+                        sights of Asia’s holiday season.</li>
+                    <li>Stay at our top unique properties From
+                        castles
+                        and villas to boats and igloos, we've
+                        got it
+                        all</li>
+                </div>
+                <button>See More</button>
             </div>
             <div>
-                <img src="images/background/gallery05.png" alt="">
+                <img class="perfect-container-img"
+                    src="images/background/Group 40089.png" alt>
             </div>
-        </div>
-        <div style="padding-top: 24px;" class="row">
+
+        </section>
+
+        <!-- Review & Testimonial section -->
+        <section class="container-review">
             <div>
-                <img src="images/background/gallery06.png" alt="">
+                <h6><i>Review & Testimonial</i></h6>
+                <h2>Top Reviews for Treker</h2>
+                <img src="images/quotes-2.svg" alt>
+                <h3>ফয়সাল রহমান</h3>
+                <h4>" Treker is very committed to their Service. Very Good services. I am satisfied with their serives. Highly recommended."</h4>
+                <div class="img-thm">
+                    <img src="images/icon/team-1.jpg" alt>
+                </div>
             </div>
-            <div>
-                <img src="images/background/gallery07.png" alt="">
+
+        </section>
+
+        <!-- Start Newsletter Section -->
+        <section class="newsletter">
+            <div class="newsletter-left-side">
+                <h4>Newsletter</h4>
+                <h6>Get your daily dose of travel news & tips. Sign up
+                    today!</h6>
+                <hr>
+                <div class="newsletter-enter">
+                    <input type="text" placeholder="Enter your name">
+                    <input style="margin-top: 16px;" type="text"
+                        placeholder="Enter your email"><br>
+                    <button>Subscribe</button>
+                </div>
             </div>
-        </div>
-    </section>
-
-    <!-- Why Choose Us Section -->
-    <section class="container-choose">
-        <div class="header-choose">
-            <h1>Why Choose Us</h1>
-            <p>Our carefully selected destinations offer a rich mosaic of traditions, history, and natural wonders</p>
-        </div>
-        <div class="box-item-container-1">
-            <div class="box-item">
-                <img src="images/hotel 1.svg" alt="">
-                <h3>Handpicked Hotels</h3>
-                <p>Discover a world of unparalleled hospitality, where every hotel has been chosen for its unique charm,
-                    outstanding service, and attention to detail. </p>
+            <div class="newsletter-right-side">
+                <img src="images/background/newslatter.png" alt>
             </div>
-            <div class="box-item-extra">
-                <img src="images/map 1.svg" alt="">
-                <h3>World Class Service</h3>
-                <p>luxury meets distinction. Our team of travel experts has meticulously selected each property to
-                    ensure an exceptional and unforgettable experience for our guests. </p>
+        </section>
+
+        <!-- Start footer section -->
+        <footer class="footer-container">
+            <div class="footer-start">
+                <img src="images/logo.svg" alt>
+                <p>Treker is the country’s first and leading online travel
+                    aggregator (OTA). Since our inception, we have
+                    dreamt of making travel easier for people of all ages and we
+                    move forward to make that dream into
+                    reality.</p>
             </div>
-        </div>
-        <div class="box-item-container-2">
-            <div class="box-item">
-                <img src="images/price-tag 1.svg" alt="">
-                <h3>Best Price Guarantee</h3>
-                <p> Explore our carefully curated selection and elevate your travel experience with the finest
-                    accommodations around the globe. </p>
+            <div class="social-icon">
+                <a href><i class="fa-brands fa-twitter"></i></a>
+                <a href><i class="fa-brands fa-facebook"></i></a>
+                <a href><i class="fa-brands fa-instagram"></i></a>
+                <a href><i class="fa-brands fa-github"></i></a>
             </div>
-        </div>
-    </section>
-
-    <!-- Perfect Place Section -->
-    <section class="perfect-container">
-        <div class="perfect-des">
-            <h1>A Simple Perfect Place To Get Lost</h1>
-            <p>A popular destination of tourist. Here has the unique privilage of having two hight peaks of the country,
-            </p>
-            <div class="perfect-list">
-                <li>Discover the shimmering lights and festive sights of Asia’s holiday season.</li>
-                <li>Stay at our top unique properties From castles and villas to boats and igloos, we've got it all</li>
-            </div>
-            <button>See More</button>
-        </div>
-        <div>
-            <img src="images/background/Group 40089.png" alt="">
-        </div>
-
-    </section>
-
-    <!-- Review & Testimonial section -->
-    <section class="container-review">
-        <div>
-            <h6><i>Review & Testimonial</i></h6>
-            <h2>Top Reviews for Treker</h2>
-            <img src="images/quotes-2.svg" alt="">
-            <h3>ফয়সাল রহমান</h3>
-            <h4>" Treker is very committed to their Service. Very Good services. I am satisfied with their serives. Highly recommended."</h4>
-            <div class="img-thm">
-                <img src="images/icon/team-1.jpg" alt="">
-            </div>
-        </div>
-
-    </section>
-
-
-    <!-- Start Newsletter Section -->
-    <section class="newsletter">
-        <div class="newsletter-left-side">
-            <h4>Newsletter</h4>
-            <h6>Get your daily dose of travel news & tips. Sign up today!</h6>
             <hr>
-            <div class="newsletter-enter">
-                <input type="text" placeholder="Enter your name">
-                <input style="margin-top: 16px;" type="text" placeholder="Enter your email"><br>
-                <button>Subscribe</button>
-            </div>
-        </div>
-        <div class="newsletter-right-side">
-            <img src="images/background/newslatter.png" alt="">
-        </div>
-    </section>
-
-    <!-- Start footer section -->
-    <footer class="footer-container">
-        <div class="footer-start">
-            <img src="images/logo.svg" alt="">
-            <p>Treker is the country’s first and leading online travel aggregator (OTA). Since our inception, we have
-                dreamt of making travel easier for people of all ages and we move forward to make that dream into
-                reality.</p>
-        </div>
-        <div class="social-icon">
-            <a href=""><i class="fa-brands fa-twitter"></i></a>
-            <a href=""><i class="fa-brands fa-facebook"></i></a>
-            <a href=""><i class="fa-brands fa-instagram"></i></a>
-            <a href=""><i class="fa-brands fa-github"></i></a>
-        </div>
-        <hr>
-        <p class="footer-last">2024, All Rights Reserved.</p>
-    </footer>
-    <!-- End footer section -->
-</body>
+            <p class="footer-last">2024, All Rights Reserved.</p>
+        </footer>
+        <!-- End footer section -->
+    </body>
 
 </html>
